@@ -46,7 +46,7 @@ jobs:
         # TODO: can't remember why I did this twice
         - python -c "import geoviews as gv; gv.sample_data('notebooks/user_guide/sample-data')"
         - python -c "import geoviews as gv; gv.sample_data('doc/sample-data')"
-        - conda install -c conda-forge sphinx beautifulsoup4 graphviz
+        - conda install -c conda-forge sphinx beautifulsoup4 graphviz selenium phantomjs
         - pip install nbsite
         - pip install sphinx_ioam_theme
         # TODO: should make this content available too rather than deleting it!
