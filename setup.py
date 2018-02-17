@@ -9,7 +9,7 @@ except ImportError:
 
 setup_args = dict(
     name='geoviews',
-    version="1.4.2",
+    version=os.environ.get("VERSIONHACK","1.4.2"),
     python_requires = '>=2.7',
     install_requires = [
         'param >=1.5.1',
