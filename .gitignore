@@ -71,3 +71,4 @@ target/
 .DS_Store
 # Website
 doc/_build
+*~
